@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step1: Launch the Browser Success]]>
+    </line>
+    <line>
+      <![CDATA[Step1.1: Maximizing the Browser Success]]>
+    </line>
+    <line>
+      <![CDATA[Step:2 Navigation to the Application via URL Success]]>
+    </line>
+    <line>
+      <![CDATA[Step10: Close the Browser Success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-06T09:58:27 IST" name="Functionality" finished-at="2024-11-06T09:58:42 IST" duration-ms="14792">
+    <groups>
+    </groups>
+    <test started-at="2024-11-06T09:58:27 IST" name="ChromeTest" finished-at="2024-11-06T09:58:42 IST" duration-ms="14792">
+      <class name="com.EpsomD.WelcomTest.VerifyWelcomePageTest">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:27 IST" name="suiteSetup" finished-at="2024-11-06T09:58:27 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="browserSetup(java.lang.String,java.lang.String)[pri:0, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:27 IST" name="browserSetup" finished-at="2024-11-06T09:58:29 IST" duration-ms="2043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[file:///C:/Users/Revathi/eclipse-workspace/Selenium/EpsomD/src/main/resources/Softwares/webpage.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step1: Launch the Browser Success]]>
+            </line>
+            <line>
+              <![CDATA[Step1.1: Maximizing the Browser Success]]>
+            </line>
+            <line>
+              <![CDATA[Step:2 Navigation to the Application via URL Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyWelcomepageWithValidInput()[pri:1, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:29 IST" name="verifyWelcomepageWithValidInput" finished-at="2024-11-06T09:58:33 IST" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithValidInput -->
+        <test-method signature="verifyWelcomepageWithInValidInput()[pri:2, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:33 IST" name="verifyWelcomepageWithInValidInput" finished-at="2024-11-06T09:58:37 IST" depends-on-methods="com.EpsomD.WelcomTest.VerifyWelcomePageTest.verifyWelcomepageWithValidInput" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithInValidInput -->
+        <test-method signature="verifyWelcomepageWithInValidInput()[pri:2, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:37 IST" name="verifyWelcomepageWithInValidInput" finished-at="2024-11-06T09:58:41 IST" depends-on-methods="com.EpsomD.WelcomTest.VerifyWelcomePageTest.verifyWelcomepageWithValidInput" duration-ms="3956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWelcomepageWithInValidInput -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:41 IST" name="terminateBrowser" finished-at="2024-11-06T09:58:42 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step10: Close the Browser Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method is-config="true" signature="suiteTerminateSetup()[pri:0, instance:com.EpsomD.WelcomTest.VerifyWelcomePageTest@13e344d]" started-at="2024-11-06T09:58:42 IST" name="suiteTerminateSetup" finished-at="2024-11-06T09:58:43 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTerminateSetup -->
+      </class> <!-- com.EpsomD.WelcomTest.VerifyWelcomePageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Functionality -->
+</testng-results>

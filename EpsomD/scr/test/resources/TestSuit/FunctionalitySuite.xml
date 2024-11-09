@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fumctionality">
+  <test thread-count="5" name="ChromeTest">
+    <classes>
+      <class name="com.EpsomD.WelcomTest.VerifyWelcomePage_Test"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+</suite> <!-- Fumctionality -->
